@@ -4,7 +4,7 @@ SLACK_CHANNEL=${SLACK_CHANNEL:-general}
 SLACK_USERNAME=${SLACK_USERNAME:-"Slack CLI Notifier "}
 SLACK_WEBHOOK_URL=${SLACK_WEBHOOK_URL:-""}
 
-if [ -Z"$SLACK_WEBHOOK_URL" ]; then
+if [ -z "$SLACK_WEBHOOK_URL" ]; then
   echo "You must define SLACK_WEBHOOK_URL in order to post a message";
   exit 1;
 fi
