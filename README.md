@@ -3,7 +3,7 @@ Slack Notify
 
 Why?
 ----
-This simple script enables you to post a message into slack from the command line without the need to install a Ruby, Node, PHP application with their boatload of dependencies. 
+This simple script enables you to post a message into slack from the command line without the need to install a Ruby, Node, PHP application with their boatload of dependencies. It's not magic!
 
 Install
 -------
